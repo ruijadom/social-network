@@ -1,10 +1,13 @@
 import React from 'react';
 import GlobalStyles from './styles/GlobalStyles'
+import Layout from './components/Layout';
+
+
 
 function App() {
   return (
     <>
-    <h1>SocialNetwork</h1>
+    <Layout />
     <GlobalStyles />
     </>
   )
