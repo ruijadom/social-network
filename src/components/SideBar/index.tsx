@@ -1,6 +1,12 @@
 import React from 'react';
 
-import { Container, SearchWrapper, SearchInput, SearchIcon, Body } from './styles';
+import {
+  Container,
+  SearchWrapper,
+  SearchInput,
+  SearchIcon,
+  Body,
+} from './styles';
 
 const SideBar: React.FC = () => {
   return (
@@ -15,6 +21,6 @@ const SideBar: React.FC = () => {
       </Body>
     </Container>
   );
-}
+};
 
 export default SideBar;
